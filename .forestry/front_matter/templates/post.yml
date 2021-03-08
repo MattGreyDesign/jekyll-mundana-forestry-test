@@ -20,5 +20,17 @@ fields:
 - type: file
   name: image
   label: image
+- name: ajshfal
+  type: select
+  default: _config.yml
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: configuration
+      file: _config.yml
+      path: plugins
+  label: ajshfal
 pages:
 - _posts/2019-01-18-customer-service.md
